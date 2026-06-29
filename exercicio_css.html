@@ -1,0 +1,62 @@
+<!--
+
+- Adicionar a tag <link> correta dentro do <head> para importar o arquivo style.css.
+
+- Estilo Global (Seletor de Tag): 
+    * Mude a fonte padrão do body para uma família sem serifa (ex: Arial, sans-serif).
+     Altere a cor de fundo da página para um cinza bem claro (ex: #f4f4f9).
+
+- Estilo de Cabeçalho (Seletor de Tag e Classe):
+    Centralize o texto do <header>.
+    Mude a cor do <h1> para um azul escuro.
+    Modifique a classe .subtitulo para ter uma fonte em itálico e uma cor cinza escuro.
+
+- O Início do Box Model (Seletor de Classe):
+    Selecione a classe .card-perfil.
+    Adicione uma cor de fundo branca.
+    Adicione um espaçamento interno (padding) de 20px.
+    Adicione uma borda sólida de 1px com uma cor cinza clara.
+    Arredonde as bordas usando border-radius.
+
+- Destaque Específico (Seletor de ID):
+    Selecione o elemento com o ID #habilidade-foco.
+    Coloque o texto em negrito e mude a cor para verde ou outra cor de destaque à sua escolha.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Desenvolvedor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>João da Silva</h1>
+        <p class="subtitulo">Estudante de Desenvolvimento Fullstack</p>
+    </header>
+
+    <main>
+        <section class="card-perfil">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Estou dando meus primeiros passos no mundo do <strong>front-end</strong> e <strong>back-end</strong>.</p>
+        </section>
+
+        <section class="habilidades">
+            <h2>Minhas Habilidades Iniciais</h2>
+            <ul>
+                <li>Lógica de Programação</li>
+                <li>HTML5</li>
+                <li id="habilidade-foco">CSS3 (Aprendendo agora!)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido na disciplina de Desenvolvimento Web</p>
+    </footer>
+
+</body>
+</html>

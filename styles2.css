@@ -1,0 +1,59 @@
+
+ .main{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.title{
+    background-color: gray;
+    color: white;
+    width: 100vw;
+    
+}
+
+ul{
+    padding: 0;
+    margin:0;
+}
+
+nav{
+    box-sizing: border-box;
+    border-right: 1px solid black ;
+    /* width: 20%; */
+    padding: 10px;
+  
+    
+  
+}
+nav li{
+    background-color: gray;
+    margin-bottom: 5px;
+    list-style-type: none;
+    width: 350px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+section{
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20px;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 18px;
+
+}
+
+.copyright{
+    color: white;
+    background-color: gray;
+    width: 100vw;
+}
