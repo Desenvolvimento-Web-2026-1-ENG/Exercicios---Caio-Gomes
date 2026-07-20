@@ -1,2 +1,1 @@
-
-GET http://localhost:3000/api/tarefas/99
+GET http://localhost:3000/api/tarefas
